@@ -1,0 +1,3 @@
+C:/Users/HP/Documents/GitHub/Graphics/CircleDrawingAlgorithms/cmake-build-debug/CMakeFiles/CircleDrawingAlgorithms.dir
+C:/Users/HP/Documents/GitHub/Graphics/CircleDrawingAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/Documents/GitHub/Graphics/CircleDrawingAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir

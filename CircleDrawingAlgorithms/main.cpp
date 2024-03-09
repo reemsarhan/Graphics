@@ -85,7 +85,7 @@ void DrawCicle4(HDC hdc, int xc, int yc, int R, COLORREF color) {
 //Based on second Order Differential
 
 void DrawCicle5(HDC hdc, int xc, int yc, int R, COLORREF color) {
-    double x=R,y=0;
+    int x=0,y=R;
     Draw8Points(hdc,xc,yc,x,y,color);
 
     int d=1-R;
@@ -129,11 +129,11 @@ LRESULT WINAPI WndProc(HWND hwnd, UINT m, WPARAM wp, LPARAM lp)
 
             hdc = GetDC(hwnd);
             radius = static_cast<int>(sqrt((endx - startx) * (endx - startx) + (endy - starty) * (endy - starty)));
-           DrawCicle1(hdc, startx, starty, radius, RGB(159, 43, 104));
+           //DrawCicle1(hdc, startx, starty, radius, RGB(159, 43, 104));
            //DrawCicle2(hdc, startx, starty, radius, RGB(159, 43, 104));
           // DrawCicle3(hdc, startx, starty, radius, RGB(159, 43, 104));
            //DrawCicle4(hdc, startx, starty, radius, RGB(159, 43, 104));
-        //  DrawCicle5(hdc, startx, starty, radius, RGB(159, 43, 104));
+         DrawCicle5(hdc, startx, starty, radius, RGB(159, 43, 104));
 
 
             ReleaseDC(hwnd, hdc);
